@@ -1,3 +1,35 @@
+java CalculatorClient -ORBInitialPort 1050 -ORBInitialHost localhost
+-----------
+java CalculatorServer -ORBInitialPort 1050 -ORBInitialHost localhost
+------------
+tnameserv -ORBInitialPort 1050 
+
+Initial Naming Context:
+
+------------
+
+cd calculator
+
+idlj -fall calculator.idl
+
+==============================================================================================================
+string corba
+tnameserv -ORBInitialPort 1050 &
+
+Initial Naming Context:
+------
+cd string
+------
+hello divyanshu
+============================================================================================================
+javac ServerInterface.java Servant.java Server.java Client.java
+rmiregistry &
+----
+java Server
+----
+java Client
+localhost
+=================================================================
 try
 {
 double num1,num2;
