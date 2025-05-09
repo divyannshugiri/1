@@ -1,6 +1,11 @@
-Okay, let's go through the theory behind each of these distributed computing practicals.
-Theory for Distributed Computing Practicals
-Here's a breakdown of the theory behind each of the practicals you listed, suitable for writing in an exam paper.
+try
+{
+double num1,num2;
+num1=Double.parseDouble(request.getParameter("number1"));
+out.println(Calculator Servlet output);
+out.println("addition"+addition(num1,num2);
+
+
 1. Multi-threaded Client/Server Process Communication using RMI
 Theory:
 Remote Method Invocation (RMI) is a Java API that allows a Java object running in one Java Virtual Machine (JVM) to invoke methods on a remote Java object running in a different JVM. RMI provides a mechanism for distributed object communication, making it appear as if the remote object is local.
